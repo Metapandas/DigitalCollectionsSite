@@ -4,6 +4,11 @@
 <head>
   <meta charset="utf-8">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -52,31 +57,34 @@
     </div>
   </section>
 
-<!-- SEARCH AREA -->
-<!-- Has background image, Search bar, and Advanced Search link -->
-<!-- Search bar code copied from OCLC community sicussion forum -->
-<!-- Form action targets our collection https and CISOROOT targets "all" to search all our collections -->
+  <!-- SEARCH AREA -->
+  <!-- Has background image, Search bar, and Advanced Search link -->
+  <!-- Search bar code copied from OCLC community sicussion forum -->
+  <!-- Form action targets our collection https and CISOROOT targets "all" to search all our collections -->
 
   <section id="search_area">
     <div class="search-area-body">
-      <h1>Search our Digital Collections</h1>
+      <h1 class="miami-font">Search our Digital Collections</h1>
       <form method="get" action="https://cdm17273.contentdm.oclc.org/cdm4/results.php" target="_blank">
         <input type="hidden" name="CISOOP1" value="all" />
         <input type="hidden" name="CISOFIELD1" value="CISOSEARCHALL" />
         <input type="hidden" name="CISORESTMP" value="results.php" />
         <input type="hidden" name="CISOVIEWTMP" value="item_viewer.php" />
         <input type="hidden" name="CISOMODE" value="thumb" />
-        <input type="hidden" name="CISOGRID" value="thumbnail,A,1;title,A,1;titlea,A,0;creato,200,0;none,A,0;20;relevancy,none,none,none,none" />
-        <input type="hidden" name="CISOBIB" value="title,A,1,N;titlea,A,0,N;creato,200,0,N;none,A,0,N;none,A,0,N;20;relevancy,none,none,none,none" />
+        <input type="hidden" name="CISOGRID"
+          value="thumbnail,A,1;title,A,1;titlea,A,0;creato,200,0;none,A,0;20;relevancy,none,none,none,none" />
+        <input type="hidden" name="CISOBIB"
+          value="title,A,1,N;titlea,A,0,N;creato,200,0,N;none,A,0,N;none,A,0,N;20;relevancy,none,none,none,none" />
         <input type="hidden" name="CISOTHUMB" value="20 (4x5);relevancy,none,none,none,none" />
         <input type="hidden" name="CISOTITLE" value="20;title,none,none,none,none" />
         <input type="hidden" name="CISOHIERA" value="20;titlea,title,none,none,none" />
         <input type="hidden" name="CISOSUPPRESS" value="0" />
         <input type="text" name="CISOBOX1" size="20" />
-        <input type="hidden" name="CISOROOT" value="all"/>
+        <input type="hidden" name="CISOROOT" value="all" />
         <input type="submit" value="Search" class="button" />
       </form>
-      <a class="advanced-search" href="https://cdm17273.contentdm.oclc.org/digital/search/advanced"> Advanced Search </a>
+      <a class="advanced-search" href="https://cdm17273.contentdm.oclc.org/digital/search/advanced"> Advanced Search
+      </a>
     </div>
   </section>
 
@@ -98,9 +106,9 @@
     <h2>Explore our Collections</h2>
   </section>
 
-<!-- LIBRARY INFO SECTION -->
+  <!-- LIBRARY INFO SECTION -->
   <!-- Contains test and logos required to be displayed on page -->
- 
+
   <section id="library_info">
     <img src="img\IMLS_Logo.png" alt="IMLS_Logo">
     <p>The Miami-Dade Public Library Digital Collection has been created with
@@ -112,10 +120,10 @@
     <img src="img\DivLIS_Logo.png" alt="DivLIS_Logo">
   </section>
 
-<!-- FOOTER SECTION -->
+  <!-- FOOTER SECTION -->
   <!-- Will be copied to other pages  -->
   <!-- Has Bottom Navbar and ContentDM link -->
-  
+
   <section id="footer">
 
   </section>
