@@ -34,11 +34,13 @@ body{
 
 .miami-font{
   font-family: 'Righteous', cursive;
-  font-size: 5.5em;
   font-weight: 800;
   color:#005C99;
   -webkit-text-stroke: white;
   -webkit-text-stroke-width: .5px;
+}
+.search-bar-title{
+  font-size: 5.5em;
 }
 
 .search-bar-input{
@@ -64,4 +66,16 @@ body{
 .advanced-search-holder{
   text-align:left;
   padding-left: 24%;
+}
+
+.padded-areas{
+  padding: 2% 15%;
+}
+
+.section-title{
+  font-size: 2.5em;
+}
+
+.section-title-holder{
+  text-align: left;
 }
