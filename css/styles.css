@@ -23,7 +23,7 @@ body{
 }
 
 .search-area-body{
-  padding: 8%;
+  padding: 7%;
   background-image: url('../img/Search-Background-cropped.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,4 +33,9 @@ body{
 
 .miami-font{
   font-family: 'Righteous', cursive;
+  font-size: 5em;
+  font-weight: 800;
+  color:#005C99;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: .5px;
 }
