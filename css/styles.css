@@ -22,7 +22,7 @@ body{
     padding: 0 50px;
 }
 
-#search_area{
+.search_area_body{
   background-image: url('../img/Search-Background-cropped.jpg');
   background-size: cover;
   background-repeat: no-repeat;
