@@ -33,9 +33,25 @@ body{
 
 .miami-font{
   font-family: 'Righteous', cursive;
-  font-size: 5em;
+  font-size: 5.5em;
   font-weight: 800;
   color:#005C99;
   -webkit-text-stroke: white;
   -webkit-text-stroke-width: .5px;
+}
+
+.search-bar-input{
+  width:50%;
+  height: 2.5em;
+  border-radius: 3px;
+  font-size: 1.5em;
+}
+
+.search-bar-button{
+  background-color: #005C99;
+  color: white;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 3px;
+  font-size: 1.5em;
 }
