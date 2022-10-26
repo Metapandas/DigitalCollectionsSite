@@ -23,7 +23,8 @@ body{
 }
 
 .search-area-body{
-  padding: 7%;
+  padding-top: 5%;
+  padding-bottom: 12%;
   background-image: url('../img/Search-Background-cropped.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,4 +55,13 @@ body{
   width: 2.5em;
   border-radius: 3px;
   font-size: 1.5em;
+}
+
+.advanced-search{
+  font-size: 1.5em;
+  font-weight: 450;
+}
+.advanced-search-holder{
+  text-align:left;
+  padding-left: 24%;
 }
