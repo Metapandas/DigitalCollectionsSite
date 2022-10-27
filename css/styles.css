@@ -79,3 +79,10 @@ body{
 .section-title-holder{
   text-align: left;
 }
+.carousel-caption{
+  position: relative;
+  left: 0;
+  top: 0;
+  background: #005C99;
+  color: white;
+}
