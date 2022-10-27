@@ -80,12 +80,21 @@ body{
   text-align: left;
 }
 
-.carousel-caption{
+/* .carousel-caption{
   position: relative;
   left: 0;
   top: 0;
   background: #005C99;
   color: white;
+} */
+
+.carousel-caption {
+  right: 5%;
+  text-align: right;
+  background-color: #005C99;
+  max-width: 300px;
+  left: auto;
+  padding:5px;
 }
 
 .carousel-control-prev-icon{
@@ -96,4 +105,12 @@ body{
 .carousel-control-next-icon{
   background-color: #005C99;
   border-radius: 20px;
+}
+
+.carousel-slide-title{
+  font-family: 'Righteous', cursive;
+}
+
+.carousel-slide-text{
+  font-family: 'Roboto', sans-serif;
 }
