@@ -97,14 +97,18 @@ body{
   padding:5px;
 }
 
+/* .carousel-control-prev{
+  padding: 5rem;
+} */
+
 .carousel-control-prev-icon{
   background-color: #005C99;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 .carousel-control-next-icon{
   background-color: #005C99;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 .carousel-slide-title{
