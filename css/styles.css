@@ -122,7 +122,7 @@ body{
 .romer{
   padding-top: 40%;
   padding-bottom: 2%;
-  background-image: url('../img/Search-Background-cropped.jpg');
+  background-image: url('../img/romer.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -132,7 +132,43 @@ body{
 .library{
   padding-top: 40%;
   padding-bottom: 2%;
-  background-image: url('../img/Search-Background-cropped.jpg');
+  background-image: url('../img/mdpls-records.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.art{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/art.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.florida-history{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/FloridaHistory.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.county-departments{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/county-departments.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.browse{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/browse.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -141,6 +177,7 @@ body{
 .col-padding{
   padding: 1%;
 }
+
 
 #explore_collections{
   margin-top: 2%;
