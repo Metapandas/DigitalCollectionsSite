@@ -40,7 +40,7 @@ body{
   -webkit-text-stroke-width: .5px;
 }
 .search-bar-title{
-  font-size: 5.5em;
+  font-size: 5.5rem;
 }
 
 .search-bar-input{
@@ -179,7 +179,23 @@ body{
 }
 
 
-#explore_collections{
-  margin-top: 2%;
+#explore-collections{
+  margin-top: 3%;
+}
+
+#featured_collections{
+  margin-top: 3%;
+}
+
+#library-info{
+  margin-top: 3%;
+}
+
+.subject-title{
+  font-size: 3rem;
+}
+
+.responsive-image {
+  max-width: 100%;
 }
 
