@@ -118,3 +118,31 @@ body{
 .carousel-slide-text{
   font-family: 'Roboto', sans-serif;
 }
+
+.romer{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/Search-Background-cropped.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.library{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/Search-Background-cropped.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.col-padding{
+  padding: 1%;
+}
+
+#explore_collections{
+  margin-top: 2%;
+}
+
