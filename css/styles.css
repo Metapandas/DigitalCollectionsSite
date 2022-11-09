@@ -542,3 +542,10 @@ mske sure this collection name is added in html appropriate section */
   text-decoration: none;
   color: #005C99;
 }
+
+
+/* REMOVING UNDERLINE FROM ALL LINKS */
+
+a{
+  text-decoration: none;
+}
