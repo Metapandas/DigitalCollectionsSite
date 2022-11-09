@@ -218,3 +218,160 @@ body{
 .contentdm-link:hover{
   color:white;
 }
+
+.art-title{
+  font-size: 6.5rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 800;
+}
+
+.title-horizontal-rule{
+  /* margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0; */
+  width: 40%;
+  margin: auto;
+  border-top: 2px solid rgb(0, 92, 153);
+}
+
+.collection-title{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  background-color: #005C99;
+  color: white;
+}
+
+#title{
+  margin-bottom: 3%;
+}
+
+/* Where new art collection style will be added
+Copy a collection style below and change background image
+to new one that was added in art collections folder
+mske sure this collection name is added in html appropriate section */
+
+.aramescu-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/aramescu.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.catlett-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/catlett.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sanchez-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/sanchez.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.young-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/young.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.oviedo-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/oviedo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.monroe-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/monroe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.villasmil-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/villasmil.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.spitzer-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/spitzer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.garcia-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/garcia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.vasari-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/vasari.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bookmarks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/bookmarks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.selectedworks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/selectedworks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.paolozzi-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/paolozzi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sculpture-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/sculpture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
