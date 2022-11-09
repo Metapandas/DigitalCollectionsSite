@@ -429,3 +429,37 @@ mske sure this collection name is added in html appropriate section */
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* *********************COUNTY DEPARTMENTS COLLECTIONS******************************************** */
+
+/* Where new county departments collection style will be added
+Copy a collection style below and change background image
+to new one that was added in county departments folder
+mske sure this collection name is added in html appropriate section */
+
+.transit-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/transit.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.seaport-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/seaport.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.health-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/health.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
