@@ -463,3 +463,39 @@ mske sure this collection name is added in html appropriate section */
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* ************************************ CSS FOR INDEX ********************************************** */
+
+#index{
+  margin-bottom: 2rem;
+}
+.letters{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.index-lists{
+  list-style: none;
+}
+
+.index-section-holder{
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.index-section-holder > ul > li{
+  margin-bottom: 1rem;
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+.index-section-holder > ul > li > a{
+  text-decoration: none;
+}
+
+.capital-letters{
+  font-family: 'Righteous', cursive;
+  font-size: 6rem;
+  margin: 2rem;
+}
