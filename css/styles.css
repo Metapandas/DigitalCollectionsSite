@@ -40,7 +40,7 @@ body{
   -webkit-text-stroke-width: .5px;
 }
 .search-bar-title{
-  font-size: 5.5em;
+  font-size: 5.5rem;
 }
 
 .search-bar-input{
@@ -117,4 +117,389 @@ body{
 
 .carousel-slide-text{
   font-family: 'Roboto', sans-serif;
+}
+
+.title-collection-links{
+  text-decoration: none;
+}
+
+.romer{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/romer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.library{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/mdpls-records.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.art{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/art.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.florida-history{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/FloridaHistory.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.county-departments{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/county-departments.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.browse{
+  padding-top: 40%;
+  padding-bottom: 2%;
+  background-image: url('../img/browse.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.col-padding{
+  padding: 1%;
+}
+
+
+#explore-collections{
+  margin-top: 3%;
+}
+
+#featured_collections{
+  margin-top: 3%;
+}
+
+#library-info{
+  margin-top: 3%;
+}
+
+.subject-title{
+  font-size: 3rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+#footer{
+
+    background-color: #005C99;
+ 
+}
+
+.contentdm-tag{
+ margin-bottom: 0;
+ font-size: 1.5rem;
+ color: white;
+}
+
+.contentdm-link{
+  color:white;
+}
+
+.contentdm-link:hover{
+  color:white;
+}
+
+.art-title{
+  font-size: 6.5rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 800;
+}
+
+.title-horizontal-rule{
+  /* margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0; */
+  width: 40%;
+  margin: auto;
+  border-top: 2px solid rgb(0, 92, 153);
+}
+
+.collection-title{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  background-color: #005C99;
+  color: white;
+}
+
+#title{
+  margin-bottom: 3%;
+}
+
+/* *********************ART  COLLECTIONS******************************************** */
+
+/* Where new art collection style will be added
+Copy a collection style below and change background image
+to new one that was added in art collections folder
+mske sure this collection name is added in html appropriate section */
+
+.aramescu-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/aramescu.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.catlett-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/catlett.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sanchez-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/sanchez.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.young-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/young.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.oviedo-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/oviedo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.monroe-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/monroe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.villasmil-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/villasmil.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.spitzer-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/spitzer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.garcia-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/garcia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.vasari-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/vasari.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bookmarks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/bookmarks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.selectedworks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/selectedworks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.paolozzi-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/paolozzi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sculpture-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/art collections/sculpture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* *********************FLORIDA HISTORY COLLECTIONS******************************************** */
+
+/* Where new florida history collection style will be added
+Copy a collection style below and change background image
+to new one that was added in florida collections folder
+mske sure this collection name is added in html appropriate section */
+
+.miamibeach-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/miamibeach.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.maps-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/maps.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.miccosukee-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/miccosukee.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ephemera-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/ephemera.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.scrapbooks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/scrapbooks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* *********************COUNTY DEPARTMENTS COLLECTIONS******************************************** */
+
+/* Where new county departments collection style will be added
+Copy a collection style below and change background image
+to new one that was added in county departments folder
+mske sure this collection name is added in html appropriate section */
+
+.transit-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/transit.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.seaport-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/seaport.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.health-collection{
+  padding-top: 30%;
+  padding-bottom: 0%;
+  background-image: url('../img/county collections/health.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* ************************************ CSS FOR INDEX ********************************************** */
+
+#index{
+  margin-bottom: 2rem;
+}
+.letters{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.index-lists{
+  list-style: none;
+}
+
+.index-section-holder{
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.index-section-holder > ul > li{
+  margin-bottom: 1rem;
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+.index-section-holder > ul > li > a{
+  text-decoration: none;
+}
+
+.capital-letters{
+  font-family: 'Righteous', cursive;
+  font-size: 6rem;
+  margin: 2rem;
 }
