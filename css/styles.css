@@ -1,6 +1,36 @@
+
+
+ /* ******** WILL STATE IN WHAT ARES CODE MUST BE CHANGED TO ADD OR REMOVE THINGS ************** */
+  /* ******** PLEASE CONSULT TO THE COMMENTS IN GREEN TEXT FOR GUIDANCE ************** */
+
+
+ /* ******** GENERAL CSS ************** */
+
 body{
    text-align: center;
  }
+
+ .padded-areas{
+  padding: 2% 15%;
+}
+
+ .miami-font{
+  font-family: 'Righteous', cursive;
+  font-weight: 800;
+  color:#005C99;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: .5px;
+}
+
+/* REMOVING UNDERLINE FROM ALL LINKS */
+
+a{
+  text-decoration: none;
+}
+
+
+ /* ******** NAVBAR CSS ************** */
+ /* USED ON EVERY PAGE */
 
 .navbar{
   background-color: #005C99;
@@ -22,6 +52,10 @@ body{
     padding: 0 50px;
 }
 
+/* *********************************************HOME PAGE CSS********************************************************************************** */
+
+ /* ******** SEARCH AREA CSS ************** */
+
 .search-area-body{
   padding-top: 5%;
   padding-bottom: 12%;
@@ -32,13 +66,6 @@ body{
 
 }
 
-.miami-font{
-  font-family: 'Righteous', cursive;
-  font-weight: 800;
-  color:#005C99;
-  -webkit-text-stroke: white;
-  -webkit-text-stroke-width: .5px;
-}
 .search-bar-title{
   font-size: 5.5rem;
 }
@@ -68,9 +95,7 @@ body{
   padding-left: 24%;
 }
 
-.padded-areas{
-  padding: 2% 15%;
-}
+ /* ******** SECTIONS HEADING CSS ************** */
 
 .section-title{
   font-size: 3.5em;
@@ -80,13 +105,7 @@ body{
   text-align: left;
 }
 
-/* .carousel-caption{
-  position: relative;
-  left: 0;
-  top: 0;
-  background: #005C99;
-  color: white;
-} */
+ /* ******** CAROUSEL CSS ************** */
 
 .carousel-caption {
   right: 5%;
@@ -97,9 +116,6 @@ body{
   padding:5px;
 }
 
-/* .carousel-control-prev{
-  padding: 5rem;
-} */
 
 .carousel-control-prev-icon{
   background-color: #005C99;
@@ -119,9 +135,11 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.title-collection-links{
-  text-decoration: none;
-}
+ /* ******** HOME PAGE SECTIONS CSS ************** */
+ /* NEW SECTIONS MUST BE ADDED HERE AND LINK TO THEM IN THE html
+ HERE YOU WILL BE CREATING A CLASS FOR THE SECTION BY COPYING ONE 
+ AND CHANGING THE TITLE AND LINK TO NEW BACKGROUND IMAGE.
+ REFER TO HTML FRO MATCHING SECTION IN INDEX.HTML  */
 
 .romer{
   padding-top: 40%;
@@ -178,10 +196,20 @@ body{
   background-position: center center;
 }
 
+ /* ******** PADDING FOR COLUMNS CSS ************** */
+
 .col-padding{
   padding: 1%;
 }
 
+ /* ******** CONTROLS SIZE OF CATEGORY TITLES CSS ************** */
+
+ .subject-title{
+  font-size: 2rem;
+}
+
+
+ /* ******** MARGINS BETWEEN SECTIONS CSS ************** */
 
 #explore-collections{
   margin-top: 3%;
@@ -195,13 +223,8 @@ body{
   margin-top: 3%;
 }
 
-.subject-title{
-  font-size: 2rem;
-}
-
-.responsive-image {
-  max-width: 100%;
-}
+ /* ******** FOOTER CSS ************** */
+ /* USED ON EVERY PAGE */
 
 #footer{
 
@@ -223,7 +246,15 @@ body{
   color:white;
 }
 
-.art-title{
+ /* ******** CONTROLS WIDTH OF LOGOS IN FOOTER ************** */
+
+ .responsive-image {
+  max-width: 100%;
+}
+
+/* *********************************************OTHER PAGES CSS********************************************************************************** */
+
+.page-title{
   font-size: 6.5rem;
   font-family: 'Righteous', cursive;
   font-weight: 800;
@@ -544,8 +575,3 @@ mske sure this collection name is added in html appropriate section */
 }
 
 
-/* REMOVING UNDERLINE FROM ALL LINKS */
-
-a{
-  text-decoration: none;
-}
