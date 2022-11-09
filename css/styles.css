@@ -245,6 +245,8 @@ body{
   margin-bottom: 3%;
 }
 
+/* *********************ART  COLLECTIONS******************************************** */
+
 /* Where new art collection style will be added
 Copy a collection style below and change background image
 to new one that was added in art collections folder
@@ -371,6 +373,58 @@ mske sure this collection name is added in html appropriate section */
   padding-top: 65%;
   padding-bottom: 0%;
   background-image: url('../img/art collections/sculpture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* *********************FLORIDA HISTORY COLLECTIONS******************************************** */
+
+/* Where new florida history collection style will be added
+Copy a collection style below and change background image
+to new one that was added in florida collections folder
+mske sure this collection name is added in html appropriate section */
+
+.miamibeach-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/miamibeach.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.maps-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/maps.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.miccosukee-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/miccosukee.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ephemera-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/ephemera.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.scrapbooks-collection{
+  padding-top: 65%;
+  padding-bottom: 0%;
+  background-image: url('../img/florida collections/scrapbooks.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
