@@ -119,6 +119,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.title-collection-links{
+  text-decoration: none;
+}
+
 .romer{
   padding-top: 40%;
   padding-bottom: 2%;
