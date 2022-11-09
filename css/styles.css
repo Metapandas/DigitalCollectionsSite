@@ -196,7 +196,7 @@ body{
 }
 
 .subject-title{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .responsive-image {
@@ -476,7 +476,7 @@ mske sure this collection name is added in html appropriate section */
 .letters{
   font-family: 'Righteous', cursive;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .index-lists{
