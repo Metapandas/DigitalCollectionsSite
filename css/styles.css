@@ -22,6 +22,12 @@ body{
   -webkit-text-stroke-width: .5px;
 }
 
+.miami-font-nostroke{
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  color:#005C99;
+}
+
 /* REMOVING UNDERLINE FROM ALL LINKS */
 
 a{
