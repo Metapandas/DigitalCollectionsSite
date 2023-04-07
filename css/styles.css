@@ -28,6 +28,13 @@ a{
   text-decoration: none;
 }
 
+/* MDPLS Logo */
+/* !!!!!! Need to fix breakpoints so it get bigger when screen
+size decreases !!!!!!! */
+.logo-img{
+  width: 25%;
+}
+
 
  /* ******** NAVBAR CSS ************** */
  /* USED ON EVERY PAGE */
@@ -63,7 +70,6 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .search-bar-title{
@@ -116,8 +122,8 @@ a{
   padding:5px;
 }
 
-
-.carousel-control-prev-icon{
+/* replaced for now if fine keep new one below */
+/* .carousel-control-prev-icon{
   background-color: #005C99;
   border-radius: 2rem;
 }
@@ -125,6 +131,16 @@ a{
 .carousel-control-next-icon{
   background-color: #005C99;
   border-radius: 2rem;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #005C99;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .carousel-slide-title{
