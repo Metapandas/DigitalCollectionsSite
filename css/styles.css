@@ -119,6 +119,10 @@ size decreases !!!!!!! */
 
  /* ******** CAROUSEL CSS ************** */
 
+ .carousel{
+  width: 80%;
+  margin: auto;
+ }
 .carousel-caption {
   right: 5%;
   text-align: right;
@@ -162,6 +166,11 @@ size decreases !!!!!!! */
  HERE YOU WILL BE CREATING A CLASS FOR THE SECTION BY COPYING ONE 
  AND CHANGING THE TITLE AND LINK TO NEW BACKGROUND IMAGE.
  REFER TO HTML FRO MATCHING SECTION IN INDEX.HTML  */
+
+ /* .explore-collections-holder{
+  width: 80%;
+  margin: auto;
+ } */
 
 .romer{
   padding-top: 40%;
