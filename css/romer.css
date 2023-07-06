@@ -10,6 +10,13 @@
 .romer-search-bar-title{
     font-size: 5.5rem;
     padding-bottom: 2%;
+    -webkit-text-stroke: none;
+  }
+
+  .romer-categories-font{
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    color:#005C99;
   }
 
 .romer-buttons{
@@ -35,6 +42,12 @@ margin-bottom: 5%;
 font-size: 4rem;
 }
 
+.categories-title{
+  text-align: center;
+  font-size: 4rem;
+  margin: 3%;
+  }
+
 .cards-wrapper {
     display: flex;
     justify-content: center;
@@ -55,32 +68,35 @@ font-size: 4rem;
   }
 
   #romer-categories{
-    background-color: #005C99;
     padding: 0%;
   }
 
-  .categories-title{
-    color: white;
-    text-align: center;
-    margin-bottom: 5%;
-    font-size: 4rem;
+  .categories-names{
+    font-size: 2rem;
+    /* text-decoration: underline; */
+    text-align: left;
+  }
+
+  .categories-list{
+    text-align: left;
+    list-style-position: inside;
+  }
+  
+  .romer-categories-margin{
+    margin-top: 4rem;
+  }
+
+ 
+
+    .categories-list-item-link{
+      font-size: 1.5rem;
     }
 
-
-
-    .romerCategories-btn{
-        background-color:white ;
-        color: #005C99;
-        font-family: 'Righteous', cursive;
-        font-size: 2rem;
+    .categories-list-item-link:hover{
     }
+  
 
-    .dropdown-menu{
-        background-color:white ;
-        color: #005C99;
-        font-family: 'Righteous', cursive;
-        font-size: 1.5rem;
-    }
+
 
   .timeline-title{
     text-align: center;
