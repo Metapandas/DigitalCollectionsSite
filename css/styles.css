@@ -34,6 +34,10 @@ a{
   text-decoration: none;
 }
 
+center{
+  text-align: center;
+}
+
 /* MDPLS Logo */
 /* !!!!!! Need to fix breakpoints so it get bigger when screen
 size decreases !!!!!!! */
@@ -113,9 +117,9 @@ size decreases !!!!!!! */
   font-size: 3.5em;
 }
 
-.section-title-holder{
+/* .section-title-holder{
   text-align: left;
-}
+} */
 
  /* ******** CAROUSEL CSS ************** */
 
@@ -254,6 +258,12 @@ size decreases !!!!!!! */
   margin-top: 3%;
 }
 
+.title-margin{
+  margin-top: 3%;
+}
+
+
+
  /* ******** FOOTER CSS ************** */
  /* USED ON EVERY PAGE */
 
@@ -286,9 +296,10 @@ size decreases !!!!!!! */
 /* *********************************************OTHER PAGES CSS********************************************************************************** */
 
 .page-title{
-  font-size: 6.5rem;
+  font-size: 4.5rem;
   font-family: 'Righteous', cursive;
   font-weight: 800;
+  color:#005C99;
 }
 
 .title-horizontal-rule{
